@@ -36,3 +36,4 @@ conductor.redis.hosts=host0:6379:us-east-1c:my_str0ng_pazz;host1:6379:us-east-1c
 
 - In a cluster, all nodes use the same password.
 - In a sentinel configuration, sentinels and redis nodes use the same password.
+- If you are doing a local redis deployment without a 'rack' value, any string in the 3rd index will work.
